@@ -1,0 +1,25 @@
+.container {
+  background-color: var(--bg-tertiary);
+
+  height: 10vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem;
+
+  border-radius: 0 0 2rem 2rem;
+}
+
+.logo {
+  user-select: none;
+}
+
+.userImage {
+  border-radius: 100%;
+
+  cursor: pointer;
+}

@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Readme do Projeto - Controle Parental PWA
 
-## Getting Started
+Este é o Readme do projeto da Progressive Web App (PWA) desenvolvida com Next.js para o curso da faculdade. O objetivo deste projeto é criar uma aplicação web que ensine os pais a monitorar e configurar o controle parental em dispositivos móveis, permitindo-lhes tomar medidas para proteger seus filhos online.
 
-First, run the development server:
+Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
-```
+Nos dias de hoje, é crucial para os pais entenderem como podem proteger seus filhos na internet. Com o aumento do uso de dispositivos móveis por crianças e adolescentes, a necessidade de monitoramento e controle parental tornou-se ainda mais importante. Esta PWA visa abordar essa necessidade, oferecendo informações e orientações sobre como ativar e configurar o controle parental em smartphones e tablets.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Funcionalidades
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Informações sobre Controle Parental
+   A PWA fornecerá informações detalhadas sobre o que é o controle parental, por que é importante e como ele pode ser usado para proteger as crianças online.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Tutoriais Passo a Passo
 
-## Learn More
+A aplicação incluirá tutoriais passo a passo sobre como ativar o controle parental em dispositivos iOS (iPhone e iPad) e dispositivos Android. Isso incluirá instruções claras e ilustrações para tornar o processo fácil de seguir.
 
-To learn more about Next.js, take a look at the following resources:
+3. Configurações Avançadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Além das configurações básicas, a PWA também explicará configurações avançadas que os pais podem ajustar para personalizar o controle parental de acordo com as necessidades de suas famílias.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Recursos de Segurança Online
 
-## Deploy on Vercel
+Serão fornecidos recursos sobre segurança online, incluindo dicas para identificar comportamentos online de risco e como conversar com os filhos sobre segurança na internet.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tecnologias
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next.js: O projeto utiliza o framework Next.js para criar uma PWA rápida e eficiente.
+React: A interface da PWA é construída com React, tornando-a interativa e fácil de usar.
+Service Workers: Service Workers são usados para habilitar o funcionamento offline da aplicação.
+LocalStorage: Os dados de configuração personalizada são armazenados localmente no dispositivo do usuário.
